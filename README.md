@@ -14,8 +14,9 @@ The binary **SiFit.jar** is directly downloadable.
 
 ## Usage ##
 
-To run SiFit for tumor phylogeny inference, the genotype matrix should be obtained from single-cell DNA sequencing data. An example genotype matrix **dataset_20cells.txt** is provided in the exampleFiles directory. The corresponding true phylogenetic tree is provided in the file **Tree_20cells.newick** in newick format. To infer the maximum likelihood (ML) tree from this dataset, SiFit can be executed as follows.
+To run SiFit for tumor phylogeny inference, the genotype matrix should be obtained from single-cell DNA sequencing data. An example genotype matrix **dataset_20cells.txt** is provided in the ***exampleFiles*** directory. The corresponding true phylogenetic tree is provided in the file **Tree_20cells.newick** in newick format. To infer the maximum likelihood (ML) tree from this given dataset, SiFit can be executed as follows.
 
 ```
-java -jar SiFit.jar -m 20 -n 446 -fp 0.002 -fn 0.2 -iter 10000 -df 1 -ipMat exampleFiles/dataset_20cells.txt -trueTree exampleFiles/Tree_20cells.newick
+java -jar SiFit.jar -m 20 -n 446 -fp 0.002 -fn 0.2 -iter 10000 -df 1 -ipMat exampleFiles/dataset_20cells.txt
 ```
+SiFit outputs the ML tree in newick format and also outputs the ML false negative rate.
