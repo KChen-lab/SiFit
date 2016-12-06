@@ -52,5 +52,7 @@ The ML tree inferred by SiFit is written to file in Newick format. The output fi
 
 ## Arguments ##
 * ```-m <Integer>``` Replace <Integer> with the number of cells in the dataset.
+
 * ```-n <Integer>``` Replace <Integer> with the number of mutations (rows) in the dataset.
+
 * ```-ipMat <filename>``` Replace <filename> with the path to the file containing the genotype matrix.
