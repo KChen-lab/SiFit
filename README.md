@@ -39,3 +39,9 @@ The genotype information represents homozygous reference, heterozygous variant a
 * 1 if mutation i is heterozygous variant in cell j, 
 * 2 if mutation i is homozygous variant in cell j, or
 * 3 if the genotype information is missing.
+
+### Cell Names (Optional) ###
+A file specifying the names of the single cells. The names should appear in a row in the same order as in the genotype matrix separated by white space character.
+
+### The True Tree ###
+For simulated datasets, for which the true tree is known, the true tree can be provided to SiFit for comparing the inferred tree. The true tree should be provided as an input file in Newick format. If the true tree is provided, SiFit will also report the tree reconstruction error.
