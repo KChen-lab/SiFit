@@ -29,3 +29,5 @@ a)*** Binary:***
 The genotype information represents the presence/absence of a mutation. The entry at position [i,j+1] should be
 
 * 0 if mutation i is not observed in cell j,
+* 1 if mutation i is observed in cell j, or
+* 3 if the genotype information is missing.
