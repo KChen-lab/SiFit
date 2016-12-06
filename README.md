@@ -27,4 +27,5 @@ The mutational profile of single cells are represented as a genotype matrix and 
 
 a)*** Binary:*** 
 The genotype information represents the presence/absence of a mutation. The entry at position [i,j+1] should be
+
 * 0 if mutation i is not observed in cell j,
