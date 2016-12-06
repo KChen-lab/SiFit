@@ -7,3 +7,11 @@
 * PhyloNet ([https://bioinfo.cs.rice.edu/phylonet]())
 * The Apache Commons Mathematics Library ([http://commons.apache.org/proper/commons-math]())
 * Parallel Colt ([https://mvnrepository.com/artifact/net.sourceforge.parallelcolt/parallelcolt]())
+
+## Installation ##
+
+The binary **SiFit.jar** is directly downloadable.
+
+## Usage ##
+
+To run SiFit for tumor phylogeny inference, the genotype matrix should be obtained from single-cell DNA sequencing data. 
