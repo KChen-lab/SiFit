@@ -24,4 +24,4 @@ SiFit outputs the ML tree in newick format and also outputs the ML false negativ
 ## Input Files ##
 1. ### Genotype Matrix ###
 The mutational profile of single cells are represented as a genotype matrix and it has to be provided as input. The first column of the matrix contains the position of the mutation. Each of the rest of the columns represents the mutation profile of a single cell. Each row represents one mutation. The first entry of each row contains the position of the mutation. The other entries represent the genotype of the corresponding cell for the given mutation. Columns are separated by a white space character. The genotype matrix can be binary/ternary.
-a) Binary: The genotype information represents the presence/absence of a mutation
+### a) Binary: ### The genotype information represents the presence/absence of a mutation
