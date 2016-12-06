@@ -43,5 +43,9 @@ The genotype information represents homozygous reference, heterozygous variant a
 ### Cell Names (Optional) ###
 A file specifying the names of the single cells. The names should appear in a row in the same order as in the genotype matrix separated by white space character.
 
-### The True Tree ###
+### The True Tree (Optional) ###
 For simulated datasets, for which the true tree is known, the true tree can be provided to SiFit for comparing the inferred tree. The true tree should be provided as an input file in Newick format. If the true tree is provided, SiFit will also report the tree reconstruction error.
+
+## Output File ##
+### Inferred Tree ###
+The ML tree inferred by SiFit is written to file in Newick format. The output file obtains the base name from the input file and adds an extension ```_mlTree.newick```.
