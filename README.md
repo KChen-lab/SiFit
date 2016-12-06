@@ -61,6 +61,8 @@ The ML tree inferred by SiFit is written to file in Newick format. The output fi
 
 * ```-fn <Double>``` Set <Double> to the estimated allelic dropout rate of the single-cell sequencing experiment. This will be used for setting the prior distribution for estimating false negative rate.
 
-* ```-r``` Set <Integer> to the desired number of restarts to use.
+* ```-r <Integer>``` Set <Integer> to the desired number of restarts to use.
 
 * ```-iter <Integer>``` Set <Integer> to the number of iterations to run for each restart.
+
+* ```-df <Integer>``` Set <Integer> to 1 if the input matrix is ternary. Set <Integer> to 0 if the input matrix is binary.
