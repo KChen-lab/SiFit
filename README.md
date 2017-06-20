@@ -69,3 +69,9 @@ The ML tree inferred by SiFit is written to file in Newick format. The output fi
 
 ## Optional Arguments ##
 * ```-cellNames <filename>``` Replace <filename> with the path to the file containing the names of the cells. The cell names should be written in a single row separated by blank spaces. The order of the names of the cells should be same as the order in any row of the file containing the genotype matrix. If no such file is provided, the cells are numbered 1 to m.
+
+* ```-trueTree <filename>``` Replace <filename> with the path to the file containing the ground truth tree. The true phylogenetic tree should be written in Newick format. The names of the leaves in the true tree should match the names of the cells. If this file is provided, then the program outputs tree reconstruction error.
+
+* ``` -e <Double>``` Set <Double> to a value between 0 and 1. This specifies the probability of choosing the error rate changing move during the heuristic search process.  
+
+* ``` -printIter <Integer>``` Set <Integer> to the number of iterations after which the best value of likelihood is to be printed to the standard output. This should be smaller than the total number of iterations for each restart.
