@@ -66,3 +66,6 @@ The ML tree inferred by SiFit is written to file in Newick format. The output fi
 * ```-iter <Integer>``` Set <Integer> to the number of iterations to run for each restart.
 
 * ```-df <Integer>``` Set <Integer> to 1 if the input matrix is ternary. Set <Integer> to 0 if the input matrix is binary.
+
+## Optional Arguments ##
+* ```-cellNames <filename>``` Replace <filename> with the path to the file containing the names of the cells. The cell names should be written in a single row separated by blank spaces. The order of the names of the cells should be same as the order in any row of the file containing the genotype matrix. If no such file is provided, the cells are numbered 1 to m.
