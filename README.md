@@ -7,6 +7,7 @@
 * PhyloNet ([https://bioinfo.cs.rice.edu/phylonet]())
 * The Apache Commons Mathematics Library ([http://commons.apache.org/proper/commons-math]())
 * Parallel Colt ([https://mvnrepository.com/artifact/net.sourceforge.parallelcolt/parallelcolt]())
+* Habanero-Java Library ([https://wiki.rice.edu/confluence/display/PARPROG/HJ+Library]())
 
 ## Installation ##
 
