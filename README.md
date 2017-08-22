@@ -11,7 +11,7 @@
 
 ## Installation ##
 
-The binary **SiFit.jar** is directly downloadable.
+The binary [SiFit.jar](https://bitbucket.org/hamimzafar/sifit/src/SiFit.jar) is directly downloadable.
 
 ## Usage ##
 
