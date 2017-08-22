@@ -80,3 +80,6 @@ The ML tree inferred by SiFit is written to file in Newick format. The output fi
 * ``` -mh <Double>``` Set <Double> to a value between 0 and 1. This specifies the probability of choosing a Metropolis-Hastings step. Metropolis-Hastings steps are used with a small probability while proposing a new error rate or a new phylogenetic tree. The default value is 0.1, only small values (< 0.25) are recommended.
 
 * ``` -printIter <Integer>``` Set <Integer> to the number of iterations after which the best value of likelihood is to be printed to the standard output. This should be smaller than the total number of iterations for each restart.
+
+## License ##
+SiFit is released under the [MIT License](http://www.opensource.org/licenses/MIT).
