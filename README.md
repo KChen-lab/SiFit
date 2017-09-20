@@ -2,6 +2,12 @@
 
 **SiFit** is a tool for reconstructing phylogenetic tree from noisy mutation profile of single cells. Given an imperfect noisy genotype matrix from single cells, **SiFit** employs a heuristic search algorithm to infer the Maximum Likelihood (ML) phylogenetic tree under a finite-site model of evolution. Along with tree inference, error rates of the single-cell dataset can also be estimated.
 
+## Publication ##
+SiFit: inferring tumor trees from single-cell sequencing data under finite-sites models
+Hamim Zafar, Anthony Tzen, Nicholas Navin, Ken Chen and Luay Nakhleh
+Genome Biology 2017, 18:178
+[https://doi.org/10.1186/s13059-017-1311-2]()
+
 ## Dependencies ##
 
 * PhyloNet ([https://bioinfo.cs.rice.edu/phylonet]())
