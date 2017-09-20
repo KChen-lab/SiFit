@@ -9,7 +9,7 @@ Hamim Zafar, Anthony Tzen, Nicholas Navin, Ken Chen and Luay Nakhleh
 
 Genome Biology 2017, 18:178 
 
-[https://doi.org/10.1186/s13059-017-1311-2]()
+[https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1311-2]()
 
 ## Dependencies ##
 
