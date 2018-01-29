@@ -92,3 +92,12 @@ The ML tree inferred by SiFit is written to file in Newick format. The output fi
 
 ## License ##
 SiFit is released under the [MIT License](http://www.opensource.org/licenses/MIT).
+
+## Inferring The Order of Mutations ##
+**InferAncestralStates** program of **SiFit** can be used for inferring the order of mutations on the branches of the tumor phylogeny. The program should be executed as follows
+```
+java -cp SiFit.jar SiFit.algorithm.InferAncestralStates 
+```
+Following are the arguments for this program
+* ```-fp <Double>``` Set <Double> to the false positive rate of the single-cell sequencing experiment. 
+* ```-fn <Double>``` Set <Double> to the ML estimate of false negative rate reported by SiFit during learning the tree.
