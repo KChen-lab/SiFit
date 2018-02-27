@@ -108,16 +108,16 @@ Following are the arguments for this program
 
 * ```-d <Double>``` Set <Double> to the ML estimate of deletion rate reported by SiFit during learning.
 
-* ```df <Integer>``` Set <Integer> to 1 if the input matrix is ternary. Set <Integer> to 0 if the input matrix is binary.
+* ```-df <Integer>``` Set <Integer> to 1 if the input matrix is ternary. Set <Integer> to 0 if the input matrix is binary.
 
-* ```ipMat <filename>``` Replace <filename> with the path to the file containing the input genotype matrix.
+* ```-ipMat <filename>``` Replace <filename> with the path to the file containing the input genotype matrix.
 
-* ```tree <filename>``` Replace <filename> with the path to the file containing the newick string format for the tree inferred by SiFit.
+* ```-tree <filename>``` Replace <filename> with the path to the file containing the newick string format for the tree inferred by SiFit.
 
-* ```cellNames <filename>``` Replace <filename> with the path to the file containing the names of the cells in the dataset. It should be a text file that has the names of the cells in a single line separated by whitespace, the cell names should match the leaf names of the tree, also should be in the same order as they appear in the input genotype matrix.
+* ```-cellNames <filename>``` Replace <filename> with the path to the file containing the names of the cells in the dataset. It should be a text file that has the names of the cells in a single line separated by whitespace, the cell names should match the leaf names of the tree, also should be in the same order as they appear in the input genotype matrix.
 
-* ```geneNames <filename>``` Replace <filename> with the path to the file containing the names of the genes that are mutated. Each row of this test file should contain one gene name. The names of the genes should be in the same order as they appear in the input genotype matrix.
+* ```-geneNames <filename>``` Replace <filename> with the path to the file containing the names of the genes that are mutated. Each row of this test file should contain one gene name. The names of the genes should be in the same order as they appear in the input genotype matrix.
 
-* ```expectedMatrix <filename>``` Replace <filename> output file where the expected genotype matrix will be written.
+* ```-expectedMatrix <filename>``` Replace <filename> output file where the expected genotype matrix will be written.
 
 
