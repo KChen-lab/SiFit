@@ -108,7 +108,7 @@ Following are the arguments for this program
 
 * ```-d <Double>``` Set <Double> to the ML estimate of deletion rate reported by SiFit during learning.
 
-* ```-df <Integer>``` Set <Integer> to 1 if the input matrix is ternary. Set <Integer> to 0 if the input matrix is binary.
+* ```-df <Integer>``` Set <Integer> to 0 if the input matrix is binary. Currently, we support only binary input matrix for this program.
 
 * ```-ipMat <filename>``` Replace <filename> with the path to the file containing the input genotype matrix.
 
